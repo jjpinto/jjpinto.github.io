@@ -12,4 +12,4 @@ Jekyll - It is a simple, blog-aware, static site generator. It takes a template 
   
 ## License
 
-MSBuild is licensed under the [MIT license](LICENSE).
+Licensed under the [MIT license](LICENSE).
