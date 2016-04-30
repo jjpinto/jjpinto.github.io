@@ -1,4 +1,5 @@
 Purpose of the site: Deploying Jekyll to Windows Azure App Services
+=====
 
 Install
 •You need to have ruby installed in your system.
