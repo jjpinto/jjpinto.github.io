@@ -10,3 +10,6 @@ Jekyll - It is a simple, blog-aware, static site generator. It takes a template 
 > Jekyll also happens to be the engine behind GitHub Pages
   
   
+## License
+
+MSBuild is licensed under the [MIT license](LICENSE).
