@@ -1,0 +1,32 @@
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+
+highlighter: rouge
+permalink: date
+name: Jorge Pinto
+url: http://hintcoding.azurewebsites.net
+description: // Hint Coding
+gravatar_url: http://www.gravatar.com/avatar/4784f72d79d9cd9089306bbbcd192d31?s=80
+
+author:
+    name: jjpinto
+    email: jorgpinto@gmail.com
+    github: jjpinto
+    twitter: jorgpinto
+    email_md5: 4784f72d79d9cd9089306bbbcd192d31
+    bio: The ramblings and musings of <a href="http://twitter.com/jorgpinto">@jorgpinto</a>
+    stackoverflowid: 5759514
+
+title: // HINT CODING
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+rss_path: atom.xml
+categories_path: categories.html
+tags_path: tags.html
+about_path: about.html
+
+BASE_PATH:
