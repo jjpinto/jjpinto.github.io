@@ -38,7 +38,7 @@ An overview of the initial can be seen through [directory structure](http://jeky
 
 ### Deploying Jekyll to GitHub Pages
 
-Setting up a [GitHubPages](http://pages.github.com/) website couldn’t be simpler. It consists only of creating a repo with a name in the format username.github.com. By the way, a *GitHub* account is required.
+Setting up a [GitHubPages](http://pages.github.com/) website couldn’t be simpler. It consists only of creating a repo with a name in the format *username.github.com*. By the way, a *GitHub* account is required.
 
 * You can push raw **Jekyll** source to your repo and GitHub Pages will automagically compile it through **Jekyll**. 
 
