@@ -6,9 +6,9 @@ tags: [Jekyll, Azure, Ruby]
 comments: true
 
 ---
-One of the things that got me to use **Jekyll**, a static site generator, was that I could easily build my blog on GitHubPages, customize URLs, host source code on GitHub and deploy it to the cloud. I also wanted to build a **Jekyll** blog and host it on Azure Web Apps. The problem encountered, however is that **Jekyll** is based on Ruby and by default, `Azure App Service` does not support it.
+One of the things that got me to use **Jekyll**, a static site generator, was that I could easily build my blog on GitHubPages, customize URLs, host source code on GitHub and deploy it to the cloud. I also wanted to build a **Jekyll** blog and host it on Azure Web Apps. The problem encountered, however is that **Jekyll** is based on _Ruby_ and by default, `Azure App Service` does not support it.
 
-Basically, `Azure App Service` supports continuous deployment from source code control and repository tools like GitHub, BitBucket, and Visual Studio Team Services. But it does not have out-of-the-box support for Ruby, a requirement for building **Jekyll** sites. 
+Basically, `Azure App Service` supports continuous deployment from source code control and repository tools like GitHub, BitBucket, and Visual Studio Team Services. But it does not have out-of-the-box support for _Ruby_, a requirement for building **Jekyll** sites. 
 
 Therefore I had to externalize the continuous delivery with certain batch files through *Kudu*. I also added an extension to Azure Web app. By the way, Kudu is the engine behind git deployments in Azure Web Sites.
 
@@ -216,7 +216,7 @@ You will need to create four files on your site root folder. Gemfile might have 
 
 Don't miss part two, **Create your `Azure Web app` and Deploy**. 
 
-The scripts provide were based on [Scott Hanselman](http://www.hanselman.com/blog/RunningTheRubyMiddlemanStaticSiteGeneratorOnMicrosoftAzure.aspx) and 
+The scripts provided were based on articles by [Scott Hanselman](http://www.hanselman.com/blog/RunningTheRubyMiddlemanStaticSiteGeneratorOnMicrosoftAzure.aspx) and 
 [Khalid Abuhakmeh](http://rimdev.io/deploying-jekyll-to-windows-azure-app-services/).
 
 
